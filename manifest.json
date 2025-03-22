@@ -16,15 +16,15 @@
     ],
     "screenshots":[
         {
-            "src":"./media/screenshots/screenshot1.png",
-            "sizes":"399x860",
+            "src":"./media/screenshots/screenshot2.png",
+            "sizes":"1920x954",
             "type":"image/png",
             "form_factor":"wide",
             "label":"Login Parcial 2"
         },
         {
-            "src":"./media/screenshots/screenshot2.png",
-            "sizes":"1920x954",
+            "src":"./media/screenshots/screenshot1.png",
+            "sizes":"399x860",
             "type":"image/png",
             "form_factor":"narrow",
             "label":"Login Parcial 2"
