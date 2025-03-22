@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es-SV">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial 2 - Login</title>
+    <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <h1>Login</h1>
+    <form id="login">
+        <label for="input-usuario">Usuario: </label>
+        <input type="text" name="input-usuario" id="input-usuario">
+
+        <label for="input-contra">Contraseña: </label>
+        <input type="password" name="input-contra" id="input-contra">
+
+        <button type="submit" id="btn-login">Iniciar sesión</button>
+    </form>
+    <script src="js/scripts.js"></script>
+    <script>
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js',{scope:'./'});
+        }
+    </script>
+</body>
+</html>

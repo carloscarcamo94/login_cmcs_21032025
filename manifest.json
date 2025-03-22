@@ -1,0 +1,33 @@
+{
+    "lang":"es-SV",
+    "name":"Parcial 2 - Login",
+    "short_name":"Login",
+    "description":"Login desarrollado en el parcial 2",
+    "start_url":"./",
+    "background_color":"#2f3d58",
+    "theme_color":"#2f3d58",
+    "orientation":"any",
+    "display":"standalone",
+    "icons": [
+        {
+            "src":"./media/icon/icon.png",
+            "sizes":"512x512"
+        }
+    ],
+    "screenshots":[
+        {
+            "src":"./media/screenshots/screenshot1.png",
+            "sizes":"399x860",
+            "type":"image/png",
+            "form_factor":"wide",
+            "label":"Login Parcial 2"
+        },
+        {
+            "src":"./media/screenshots/screenshot2.png",
+            "sizes":"1920x954",
+            "type":"image/png",
+            "form_factor":"narrow",
+            "label":"Login Parcial 2"
+        }
+    ]
+}
